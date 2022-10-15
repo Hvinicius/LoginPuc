@@ -55,6 +55,7 @@ const [offset] = useState(new Animated.ValueXY({x: 0, y: 95}));
           style={styles.input}
           placeholder="Senha"
           autoCorrect={false}
+          secureTextEntry={true}
           onChangeText={() => {}}
         />
 
